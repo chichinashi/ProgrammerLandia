@@ -24,11 +24,15 @@ body {
     background-color: green;
 }
 
-#share {
-    width: 60px;
-    height: 60px;
+
+.facebook {
+    font-size: 30px;
 }
 
-.share {
-    font-size: 20px;
+.whatsapp {
+    font-size: 30px;
+}
+
+.telegram {
+    font-size: 30px;
 }
