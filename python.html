@@ -63,7 +63,8 @@
         <br>
         <br>
 
-        <a class="share" target="_blank"><i class="fa-brands fa-facebook fa-bounce" style="color: #74C0FC;"></i></a>
+        <a class="facebook" target="_blank"><i class="fa-brands fa-facebook fa-bounce" style="color: #74C0FC;"></i></a>
+        <a class="twitter" target="_blank"><i class="fa-brands fa-x-twitter fa-bounce" style="color: #96a7c5;"></i></a>
         
         
     </main>
@@ -74,14 +75,13 @@
         const message = encodeURIComponent('I am this programming language! Do this quiz and see which one is yours!');
         const title = encodeURIComponent(document.querySelector('title').textContent);
 
-        const facebook = document.querySelector('.share');
+        const facebook = document.querySelector('.facebook');
+        const twitter = document.querySelector('.twitter');
 
         
         facebook.href = `https://www.facebook.com/share.php?u=${link}&text=${message}}`;
+        twitter.href = `http://twitter.com/share?&url=${link}&text=${msg}&hashtags=javascript,programming`;
         
-        facebook.addEventListener('click', () => {
-            console.log('facebook')
-        })
     </script>
 </body>
 </html>
