@@ -75,13 +75,13 @@
         const message = encodeURIComponent('I am this programming language! Do this quiz and see which one is yours!');
         const title = encodeURIComponent(document.querySelector('title').textContent);
 
-        const github = document.querySelector('.share');
+        const facebook = document.querySelector('.share');
 
         
-        github.href = `https://facebook.com/share?&url=${link}&text=${message}}`;
+        facebook.href = `https://facebook.com/share?&url=${link}&text=${message}}`;
         
-        github.addEventListener('click', () => {
-            console.log('github')
+        facebook.addEventListener('click', () => {
+            console.log('facebook')
         })
     </script>
 </body>
