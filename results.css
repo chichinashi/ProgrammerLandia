@@ -1,0 +1,34 @@
+img {
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+body {
+    text-align: center;
+    color: white;
+    background-color: #d3f9bc;
+    font-family: 'Brush Script MT', cursive;
+    font-family: Verdana;
+}
+
+.box {
+    border: solid;
+    background-color: green;
+}
+
+#share {
+    width: 60px;
+    height: 60px;
+}
+
+.share {
+    font-size: 20px;
+}

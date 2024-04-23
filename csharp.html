@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>C#</title>
+    <link rel="stylesheet" href="results.css">
+    <link rel="icon" type="image/png" href="images/pixil-frame-0 (4).png">
+</head>
+<body>
+    <header>
+        <h1>Level up your skills, conquer the game!</h1>
+    </header>
+
+    <main>
+        <img src="images/1713170553274.png">
+
+        <br>
+        <br>
+
+        <div class="box">
+        <p>Gaming Guru</p>
+        <p>Quiet</p>
+        <p>Therapist Friend</p>
+        <p>Detail-Oriented</p>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="box">
+        <h3>Passionate Gamer</h3>
+        <p>Caden is an avid gamer, immersing themselves in various virtual worlds and exploring the depths of different gaming genres.<br> 
+            They have an extensive knowledge of gaming mechanics, strategies, and a collection of impressive achievements.<br> 
+            Caden's passion for gaming fuels their creativity and problem-solving skills when it comes to coding in C#.
+        </p>
+
+        <h3>Outsider and Innovator</h3>
+        <p>
+            Caden possesses an outsider perspective, standing out from the crowd with their distinct style and unconventional ideas.<br> 
+            They are not afraid to challenge existing norms and push the boundaries of what is possible.<br>
+            This outsider mindset drives them to constantly seek innovative solutions and experiment with cutting-edge technologies.
+        </p>
+
+        <h3>Independent and Self-Motivated</h3>
+        <p>
+            Caden thrives in an independent work environment.<br>
+            They enjoy having the freedom to dive into projects at their own pace,
+             focusing on the intricate details and intricacies of coding.<br>
+            Caden's self-motivation keeps them dedicated to their craft, constantly honing their skills and pushing their limits.
+        </p>
+
+        <h3>Loyal and Supportive</h3>
+        <p>
+            While Caden may have an outsider persona, they are also a fiercely loyal and supportive friend.<br>
+            They value the bonds they form with like-minded individuals and are always there to offer guidance and assistance when needed.<br>
+            Caden's passion for gaming extends to multiplayer experiences, where they forge strong connections with fellow gamers.
+        </p>
+        </div>
+
+        <br>
+        <br>
+
+        <a class="share" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ddbbcb;"></i></a>
+         
+    </main>
+
+    <script src="https://kit.fontawesome.com/b910d01ce2.js" crossorigin="anonymous"></script>
+
+    <script>
+        const link = encodeURI(window.location.href);
+        const message = encodeURIComponent('I am this programming language! Do this quiz and see which one is yours!');
+        const title = encodeURIComponent(document.querySelector('title').textContent);
+
+        const github = document.querySelector('.share');
+
+        
+        github.href = `https://github.com/share?&url=${link}&text=${message}}`;
+        
+        github.addEventListener('click', () => {
+            console.log('github')
+        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="results.css">
+    <link rel="icon" type="image/png" href="images/pixil-frame-0 (4).png">
+</head>
+<body>
+    <header>
+        <h1>Creativity is my superpower!</h1>
+    </header>
+
+    <main>
+        <img src="images/1713169078640.png">
+
+        <br>
+        <br>
+
+        <div class="box">
+        <p>Artistic Soul</p>
+        <p>Web Architect</p>
+        <p>Reliable</p>
+        <p>Mom Friend</p>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="box">
+        <h3>Builder and Problem Solver</h3>
+        <p>
+            Jack is a natural builder and problem solver. He enjoys constructing intricate solutions and bringing ideas to life.<br>
+            With his coding expertise, Jack can build interactive and dynamic web applications that engage users and provide seamless experiences.<br>
+            He thrives on the challenges of programming and finding innovative ways to overcome obstacles.
+        </p>
+
+        <h3>Creative and Artistic</h3>
+        <p>
+            Jack has a creative flair that sets him apart. He sees the web as a canvas, where he can unleash his artistic vision.<br>
+            Jack's ability to blend functionality with visually appealing designs allows him to create captivating user interfaces.<br>
+            His creativity shines through in his coding, where he finds unique solutions to make websites come alive.
+        </p>
+
+        <h3>Extrovert and Collaborative</h3>
+        <p>
+            Jack is an extrovert who thrives in social settings. He loves interacting with others, sharing ideas, and collaborating on projects.<br>
+            Jack's outgoing nature makes him an excellent team player, as he is always ready to contribute and bounce ideas off his peers.<br>
+            He enjoys being part of a collaborative environment where he can learn from and inspire others.
+        </p>
+
+        <h3>Sibling Bond with HTML and CSS</h3>
+        <p>
+            Jack shares a special bond with his siblings, HTML and CSS, who are triplets.<br>
+            Together, they form the foundation of web development. HTML provides the structure, while CSS adds the visual styles.<br>
+            The three siblings work closely together, complementing each other's strengths and ensuring a harmonious web development process.
+        </p>
+        </div>
+
+        <br>
+        <br>
+
+        <a class="share" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ddbbcb;"></i></a>
+     
+    </main>
+
+<script src="https://kit.fontawesome.com/b910d01ce2.js" crossorigin="anonymous"></script>
+
+<script>
+    const link = encodeURI(window.location.href);
+    const message = encodeURIComponent('I am this programming language! Do this quiz and see which one is yours!');
+    const title = encodeURIComponent(document.querySelector('title').textContent);
+
+    const github = document.querySelector('.share');
+
+    
+    github.href = `https://github.com/share?&url=${link}&text=${message}}`;
+    
+    github.addEventListener('click', () => {
+        console.log('github')
+    })
+</script>
+
+</body>
+</html>

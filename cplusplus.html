@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>C++</title>
+    <link rel="stylesheet" href="results.css">
+    <link rel="icon" type="image/png" href="images/pixil-frame-0 (4).png">
+</head>
+<body>
+    <header>
+        <h1>Hard work is the key to success.</h1>
+    </header>
+
+    <main>
+        <img src="images/1713180993588.png">
+
+        <br>
+        <br>
+
+        <div class="box">
+        <p>Has Very Strict Rules</p>
+        <p>Clean Girl</p>
+        <p>High Achiever</p>
+        <p>Tends To Overwork Herself</p>
+        <p>Mysterious</p>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="box">
+        <h3>Methodical and Organized</h3>
+        <p>
+            Clara values organization and structure in her work.
+            She follows coding standards, use design patterns,<br>
+            and employ software engineering principles to ensure her code is well-organized and maintainable.
+        </p>
+
+        <h3>High Achiever</h3>
+        <p>
+            Clara is a high achiever, always striving for excellence in everything she does.<br> 
+            She sets ambitious goals for herself and works tirelessly to accomplish them. <br>
+            Clara's determination and perseverance enable her to tackle complex programming challenges and deliver exceptional results.
+        </p>
+        
+        <h3>Mysterious and Hard to Understand</h3>
+        <p>
+            Clara's brilliance and deep understanding of C++ can make her seem enigmatic and hard to understand at times.<br> 
+            Her mind operates on a different wavelength, often delving into complex algorithms and<br> 
+            intricate programming concepts that may be challenging for others to comprehend.<br> 
+            Clara's ability to navigate the depths of C++ sets her apart as a true programming virtuoso.
+        </p>
+
+        <h3>Intense and Focused</h3>
+        <p>
+            Clara's intensity and unwavering focus set her apart from her peers. <br>
+            When she dives into a coding project, she becomes fully immersed, <br>
+            channeling her energy into solving intricate problems and optimizing performance. <br>
+            Clara's laser-like focus allows her to achieve remarkable levels of efficiency and precision in her work.
+        </p>
+        </div>
+
+        <br>
+        <br>
+
+        <a class="share" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ddbbcb;"></i></a>
+         
+    </main>
+    <script src="https://kit.fontawesome.com/b910d01ce2.js" crossorigin="anonymous"></script>
+
+    <script>
+        const link = encodeURI(window.location.href);
+        const message = encodeURIComponent('I am this programming language! Do this quiz and see which one is yours!');
+        const title = encodeURIComponent(document.querySelector('title').textContent);
+
+        const github = document.querySelector('.share');
+
+        
+        github.href = `https://github.com/share?&url=${link}&text=${message}}`;
+        
+        github.addEventListener('click', () => {
+            console.log('github')
+        })
+    </script>
+
+    
+</body>
+</html>

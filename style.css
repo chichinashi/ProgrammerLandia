@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-image: url("images/pixilart-drawing.png");
+    font-family: 'Verdena', cursive;
+}
+
+p {
+    font-size: 18px;
+}
+
+pre {
+    font-size: 22px;
+    font-family: 'Verdena', cursive;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.all {
+    color: white;
+}
+
+.border {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 4px solid white;
+    width: 50%;
+    background-color: pink;
+}
+
+#but1 {
+    font-size: 50px; 
+    background-color: lightgreen; 
+    color: white; 
+    border-radius: 15px;
+    border-color: white;
+    margin-bottom: 30px;
+}
+
+#but2 {
+    font-size: 25px; 
+    background-color: lightblue; 
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+}
+
+#head {
+    margin-bottom: 40px;
+}
+
+#codedex {
+    width: 30px;
+    height: 30px;
+}

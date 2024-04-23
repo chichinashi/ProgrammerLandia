@@ -1,0 +1,37 @@
+body {
+    background-color: #B4CBF0;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.container {
+    width: 100%;
+    margin-bottom: 250px;
+  }
+
+
+  
+  img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    border: 10px solid white;
+  }
+  
+  .description {
+    overflow: hidden;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Python</title>
+    <link rel="stylesheet" href="results.css">
+    <link rel="icon" type="image/png" href="images/pixil-frame-0 (4).png">
+
+</head>
+<body>
+    <header>
+        <h1>You're sooo PYTHONIC~</h1>
+    </header>
+
+    <main>
+        <img src="images/1713133130944.png">
+
+        <br>
+        <br>
+
+        <div class="box">
+        <p>Expressive</p>
+        <p>Has Million Different Hobbies</p>
+        <p>Popular</p>
+        <p>Energetic</p>
+        <p>Quick Learner</p>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="box">
+        <h3>Popular and Sociable</h3>
+        <p>
+            Penelope is the life of the party, with a vibrant and outgoing personality that draws people to her.<br>
+            She effortlessly navigates social circles, making friends with ease.<br>
+            Penelope's popularity stems from her ability to connect with others and create a positive and inclusive environment.
+        </p>
+
+        <h3>Bright and Enthusiastic</h3>
+        <p>
+            Penelope's bright personality shines through in everything she does. <br>
+            She exudes enthusiasm and radiates positivity, making her a joy to be around. <br>
+            Penelope's passion for life is contagious, and she inspires others to approach challenges with optimism and a can-do attitude.
+        </p>
+
+        <h3>Multi-talented and Versatile</h3>
+        <p>
+            Penelope's many hobbies and interests make her a multi-talented individual. <br>
+            Whether it's painting, playing musical instruments, or participating in sports, Penelope excels in various endeavors. <br>
+            Her versatility allows her to adapt to different situations and brings a well-rounded perspective to any project she undertakes.
+        </p>
+        
+        <h3>Passionate and Curious</h3>
+        <p>
+            Penelope is a passionate individual, driven by her love for learning and exploring new things.<br>
+            She has a wide range of hobbies and interests, constantly seeking new knowledge and skills.<br> 
+            Penelope's curiosity fuels her desire to delve into various domains, making her a versatile and well-rounded individual.
+        </p>
+        </div>
+
+        <br>
+        <br>
+
+        <a class="share" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ddbbcb;"></i></a>
+        
+        
+    </main>
+    <script src="https://kit.fontawesome.com/b910d01ce2.js" crossorigin="anonymous"></script>
+
+    <script>
+        const link = encodeURI(window.location.href);
+        const message = encodeURIComponent('I am this programming language! Do this quiz and see which one is yours!');
+        const title = encodeURIComponent(document.querySelector('title').textContent);
+
+        const github = document.querySelector('.share');
+
+        
+        github.href = `https://github.com/share?&url=${link}&text=${message}}`;
+        
+        github.addEventListener('click', () => {
+            console.log('github')
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.questions {
+    font-size: 30px;
+}
+
+.ques_style {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+body {
+    text-align: center;
+    background-color: #C1E1C1;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 70px;
+}
+
+u {
+    color: green;
+}
