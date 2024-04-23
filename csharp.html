@@ -61,26 +61,13 @@
         <br>
         <br>
 
-        <a class="share" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ddbbcb;"></i></a>
-         
+        <a class="facebook" onclick="openFacebook()"><i class="fa-brands fa-facebook fa-bounce" style="color: #74C0FC;"></i></a>
+        <a class="whatsapp" onclick="openWhatsApp()"><i class="fa-brands fa-whatsapp fa-bounce" style="color: #15a87c;"></i></a>
+        <a class="telegram" onclick="openTelegram()"><i class="fa-brands fa-telegram fa-bounce" style="color: #9ccaec;"></i></a>
+        
     </main>
-
     <script src="https://kit.fontawesome.com/b910d01ce2.js" crossorigin="anonymous"></script>
-
-    <script>
-        const link = encodeURI(window.location.href);
-        const message = encodeURIComponent('I am this programming language! Do this quiz and see which one is yours!');
-        const title = encodeURIComponent(document.querySelector('title').textContent);
-
-        const github = document.querySelector('.share');
-
+    <script src="results.js"></script>
         
-        github.href = `https://github.com/share?&url=${link}&text=${message}}`;
-        
-        github.addEventListener('click', () => {
-            console.log('github')
-        })
-    </script>
-
 </body>
 </html>
