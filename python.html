@@ -63,31 +63,13 @@
         <br>
         <br>
 
-        <a class="facebook" target="_blank"><i class="fa-brands fa-facebook fa-bounce" style="color: #74C0FC;"></i></a>
-        <a class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce" style="color: #15a87c;"></i></a>
-        <a class="telegram" target="_blank"><i class="fa-brands fa-telegram fa-bounce" style="color: #9ccaec;"></i></a>
-        
+        <a class="facebook" onclick="openFacebook()"><i class="fa-brands fa-facebook fa-bounce" style="color: #74C0FC;"></i></a>
+        <a class="whatsapp" onclick="openWhatsApp()"><i class="fa-brands fa-whatsapp fa-bounce" style="color: #15a87c;"></i></a>
+        <a class="telegram" onclick="openTelegram()"><i class="fa-brands fa-telegram fa-bounce" style="color: #9ccaec;"></i></a>    
         
     </main>
     <script src="https://kit.fontawesome.com/b910d01ce2.js" crossorigin="anonymous"></script>
+    <script src="results.js"></script>
 
-    <script>
-        const link = encodeURI(window.location.href);
-        const message = encodeURIComponent('I am this programming language! Do this quiz and see which one is yours!');
-        const title = encodeURIComponent(document.querySelector('title').textContent);
-
-        const facebook = `https://www.facebook.com/share.php?u=${link}&text=${message}`
-        const whatsapp = `https://api.whatsapp.com/send?text=${message}: ${link}`
-        const telegram = `https://telegram.me/share/url?url=${link}&text=${message}`
-        
-        whatsapp.addEventListener('click', () => {
-            window.open(url = whatsapp, target = '_blank')
-        });
-        
-        facebook.setAttribute('click', );
-        telegram.setAttribute('click', );
-        
-        
-    </script>
 </body>
 </html>
